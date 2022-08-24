@@ -6,9 +6,10 @@
     if ($result -eq 'Yes') {
     While (1) 
         { 
-            $Path = "C:\temp\DefenderPayloadTests"
-            $Payloads  = Invoke-WebRequest -uri "https://thomasmartingrome-my.sharepoint.com/:u:/g/personal/thomas_grome_dev/EdIASJt5R1NIvGR05pqRY38B7WNzf5-uTx4pBYDG08c1lA?e=Dc0jfN" -Method "GET"  -Outfile $Path
-            Expand-Archive -Path $Payloads -DestinationPath C:\Temp\Get-DefenderPayloadTests -OutFile "$path\ZippedFile.zip"
+            $Path = "C:\temp\DefenderPayloadTests.zip"
+            $Payloads  = Invoke-WebRequest -uri "https://github.com/gromedev/PowerShellTrollTool/blob/main/Assets/Get-DefenderPaylodTests.zip" -Outfile $Path | 
+            #Expand-Archive -Path $Path -DestinationPath "C:\Temp\Get-DefenderPayloadTests"
+            explorer.exe "C:\Temp\"
         }     
     }
 }
