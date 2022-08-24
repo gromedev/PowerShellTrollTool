@@ -6,7 +6,7 @@ $form = New-Object System.Windows.Forms.Form
 [System.Windows.Forms.Application]::EnableVisualStyles()
 $form.Size = New-Object System.Drawing.Size(1250,600)
 $form.StartPosition = 'CenterScreen'
-$form.text = "PowerShell Troll"
+$form.text = "PowerShell Troll Tools"
 
 
 $button_click0 = {Connect-Remote}
