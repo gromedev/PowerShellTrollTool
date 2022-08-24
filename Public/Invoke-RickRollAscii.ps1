@@ -1,8 +1,7 @@
-﻿function Invoke-RickRollAscii
-{
-#.NOTE Must run as elevated.
-#.AUTHOR https://raw.githubusercontent.com/Hackstur
+﻿#.AUTHOR https://raw.githubusercontent.com/Hackstur
 # PowerShell + HTML5 prototype. Needs audio. Run: iex (New-Object Net.WebClient).DownloadString("http://bit.ly/e0Mw9w")
+function Invoke-RickRollAscii
+{
 if($host.Name -ne "ConsoleHost")
 {
     Start-Process powershell -ArgumentList '-noprofile -noexit -command iex (New-Object Net.WebClient).DownloadString(''http://bit.ly/e0Mw9w'')'
