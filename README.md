@@ -2,8 +2,8 @@
 
 Collection of dumb scripts/functions. Text and GUI menus for the script kiddies.
 
-I don't recommend you use this module but, if you do, be careful with it. 
-Warning out of the way.
+Disclaimer: I don't recommend you use this frankenstein of a module and have no liability if you break something.
+
 
 ![alt text](/Assets/GUIv0.1a.png "GUI")
 
