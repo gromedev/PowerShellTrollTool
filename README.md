@@ -5,7 +5,7 @@ Collection of dumb scripts/functions. Text and GUI menus for the script kiddies.
 I don't recommend you use this module but, if you do, be careful with it. 
 Warning out of the way.
 
-![alt text](.\Assets\GUIv0.1a.png "GUI")
+![alt text](/Assets/GUIv0.1a.png "GUI")
 
 Probably a good 65-70% of the functions were stolen from the following:
     https://github.com/perplexityjeff/PowerShell-Troll
