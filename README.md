@@ -7,10 +7,13 @@ Warning out of the way.
 
 ![alt text](/Assets/GUIv0.1a.png "GUI")
 
-Probably a good 65-70% of the functions were stolen from the following:
+Probably a good 65-70% of the functions were stolen from the following people:
     https://github.com/perplexityjeff/PowerShell-Troll
+
     https://github.com/Hackstur/JokerShell/blob/master/
+
     https://github.com/Agunderman10/Powershell-Pranks
+
     https://lazyadmin.nl/powershell/powershell-gui-howto-get-started/
 
 ## Installing PwshTrollTools
