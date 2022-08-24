@@ -38,4 +38,7 @@ $func = ""
 $ENCODED = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($cmd))
 Write-Output $ENCODED
 
+
+https://stackoverflow.com/questions/60249072/powershell-install-module-local-vs-currentuser
+
 }
