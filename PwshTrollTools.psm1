@@ -2,7 +2,7 @@
 .DESCRIPTION
     Bunch of joke functions for the everyday scriptkiddie.
 
-.CODE-STOLEN-FROM
+Probably a good 65-70% of the functions were stolen from the following:
     https://github.com/perplexityjeff/PowerShell-Troll
     https://github.com/Hackstur/JokerShell/blob/master/
     https://github.com/Agunderman10/Powershell-Pranks

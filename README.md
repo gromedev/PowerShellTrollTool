@@ -5,6 +5,12 @@ Collection of dumb scripts/functions. Text and GUI menus for the script kiddies.
 I don't recommend you use this module but, if you do, be careful with it. 
 Warning out of the way.
 
+Probably a good 65-70% of the functions were stolen from the following:
+    https://github.com/perplexityjeff/PowerShell-Troll
+    https://github.com/Hackstur/JokerShell/blob/master/
+    https://github.com/Agunderman10/Powershell-Pranks
+    https://lazyadmin.nl/powershell/powershell-gui-howto-get-started/
+
 ## Installing PwshTrollTools
 
 ```powershell
