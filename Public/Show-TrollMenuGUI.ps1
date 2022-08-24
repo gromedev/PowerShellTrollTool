@@ -17,7 +17,7 @@ $Button0.Text = "Who's the unlucky guy?"
 $Button0.Add_Click($Button_Click0)
 
 #First column
-$button_click1 = {Send-Message}
+$button_click1 = {Start-Process powershell -verb runas -ArgumentList Send-Message}
 $Button1 = New-Object System.Windows.Forms.Button
 $Button1.Location = New-Object System.Drawing.Size(50,150)
 $Button1.Size = New-Object System.Drawing.Size(200,35)
@@ -63,6 +63,13 @@ $Button6.Location = New-Object System.Drawing.Size(50,400)
 $Button6.Size = New-Object System.Drawing.Size(200,35)
 $Button6.Text = "New ScheduledTask"
 $Button6.Add_Click($Button_Click6)
+
+$button_click27 = {Invoke-OpenCDDrive}
+$Button27 = New-Object System.Windows.Forms.Button
+$Button27.Location = New-Object System.Drawing.Size(50,450)
+$Button27.Size = New-Object System.Drawing.Size(200,35)
+$Button27.Text = "Open CD Tray"
+$Button27.Add_Click($Button_Click27)
 
 
 #Second column
@@ -113,13 +120,19 @@ $Button9.Size = New-Object System.Drawing.Size(200,35)
 $Button9.Text = "99 Bottles of Beer"
 $Button9.Add_Click($Button_Click9)
 
+$button_click28 = {Invoke-CloseCDDrive}
+$Button28 = New-Object System.Windows.Forms.Button
+$Button28.Location = New-Object System.Drawing.Size(350,450)
+$Button28.Size = New-Object System.Drawing.Size(200,35)
+$Button28.Text = "Close CD Tray"
+$Button28.Add_Click($Button_Click28)
 
 #Third column
-$button_click13 = {Set-WallPaperHasselhoffe}
+$button_click13 = {Set-WallPaperHasselhoff}
 $Button13 = New-Object System.Windows.Forms.Button
 $Button13.Location = New-Object System.Drawing.Size(650,150)
 $Button13.Size = New-Object System.Drawing.Size(200,35)
-$Button13.Text = "Set Desktop"
+$Button13.Text = "Set Hasselhoff Wallpaper"
 $Button13.Add_Click($Button_Click13)
 
 
@@ -165,9 +178,9 @@ $Button17.Add_Click($Button_Click17)
 
 $button_click26 = {Get-DefenderPayloadTests}
 $Button26 = New-Object System.Windows.Forms.Button
-$Button26.Location = New-Object System.Drawing.Size(650,350)
+$Button26.Location = New-Object System.Drawing.Size(650,450)
 $Button26.Size = New-Object System.Drawing.Size(200,35)
-$Button26.Text = "d/l Defender Payloads"
+$Button26.Text = "Defender Payloads"
 $Button26.Add_Click($Button_Click26)
 
 
@@ -211,6 +224,14 @@ $Button22.Text = "Chrome Tabs Bomb"
 $Button22.Add_Click($Button_Click22)
 
 
+$button_click25 = {Invoke-CatFact}
+$Button25 = New-Object System.Windows.Forms.Button
+$Button25.Location = New-Object System.Drawing.Size(950,450)
+$Button25.Size = New-Object System.Drawing.Size(200,35)
+$Button25.Text = "Send Cat Facts"
+$Button25.Add_Click($Button_Click25)
+
+
 $button_click24 = {Invoke-RickRoll}
 $Button24 = New-Object System.Windows.Forms.Button
 $Button24.Location = New-Object System.Drawing.Size(950,400)
@@ -219,12 +240,13 @@ $Button24.Text = "Rick Roll"
 $Button24.Add_Click($Button_Click24)
 
 
-$button_click25 = {Invoke-CatFact}
-$Button25 = New-Object System.Windows.Forms.Button
-$Button25.Location = New-Object System.Drawing.Size(950,450)
-$Button25.Size = New-Object System.Drawing.Size(200,35)
-$Button25.Text = "Send Cat Facts"
-$Button25.Add_Click($Button_Click25)
+$button_click29 = {Invoke-RickRollAscii}
+$Button29 = New-Object System.Windows.Forms.Button
+$Button29.Location = New-Object System.Drawing.Size(950,500)
+$Button29.Size = New-Object System.Drawing.Size(200,35)
+$Button29.Text = "Better Rick Roll"
+
+$Button29.Add_Click($Button_Click29)
 
 
 # Add buttons to GUI
@@ -238,6 +260,7 @@ $Form.Controls.Add($Button3)
 $Form.Controls.Add($Button4)
 $Form.Controls.Add($Button5)
 $Form.Controls.Add($Button6)
+$Form.Controls.Add($Button27)
 
 $Form.Controls.Add($Button7)
 $Form.Controls.Add($Button8)
@@ -245,6 +268,7 @@ $Form.Controls.Add($Button10)
 $Form.Controls.Add($Button11)
 $Form.Controls.Add($Button12)
 $Form.Controls.Add($Button9)
+$Form.Controls.Add($Button28)
 
 $Form.Controls.Add($Button13)
 $Form.Controls.Add($Button14)
@@ -259,8 +283,9 @@ $Form.Controls.Add($Button20)
 $Form.Controls.Add($Button21)
 $Form.Controls.Add($Button23)
 $Form.Controls.Add($Button22)
-$Form.Controls.Add($Button24)
 $Form.Controls.Add($Button25)
+$Form.Controls.Add($Button24)
+$Form.Controls.Add($Button29)
 
 $form.showdialog()
 }
