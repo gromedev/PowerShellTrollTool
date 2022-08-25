@@ -1,6 +1,6 @@
-﻿function Enable-Remoting
+﻿#.DESCRIPTION This needs to be run locally on the target machine to enable remote connections.
+function Enable-Remoting
 {
-#.DESCRIPTION This needs to be run locally on the target machine to enable remote connections.
     $result = [System.Windows.Forms.MessageBox]::Show('This is potentially EXTREMELY dangerous to run. Are you sure?' , "WARNING!" , 4)
     
     if ($result -eq 'Yes') {

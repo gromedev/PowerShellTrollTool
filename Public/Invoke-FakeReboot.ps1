@@ -1,6 +1,6 @@
-﻿function Invoke-FakeReboot
+﻿#.AUTHOR https://raw.githubusercontent.com/Hackstur
+function Invoke-FakeReboot
 {
-#.AUTHOR https://raw.githubusercontent.com/Hackstur
     [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.VisualBasic") | Out-Null
     $popuptype=[microsoft.visualbasic.msgboxstyle]::Exclamation -bor [microsoft.visualbasic.msgboxstyle]::OKOnly -bor [microsoft.visualbasic.msgboxstyle]::DefaultButton1
     $a=60

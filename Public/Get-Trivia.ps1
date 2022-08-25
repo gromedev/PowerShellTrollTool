@@ -1,6 +1,6 @@
-﻿function Get-Trivia 
+﻿#.AUTHOR https://gist.github.com/VV-B0Y
+function Get-Trivia 
 {
-#.AUTHOR https://gist.github.com/VV-B0Y
     param (
         [Parameter(Mandatory)]
         [ValidateSet("easy", "medium", "hard")]

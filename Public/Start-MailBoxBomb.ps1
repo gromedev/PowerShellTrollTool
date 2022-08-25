@@ -1,6 +1,6 @@
-﻿function Start-MailBoxBomb
+﻿#.AUTHOR https://raw.githubusercontent.com/Hackstur
+function Start-MailBoxBomb
 {
-#.AUTHOR https://raw.githubusercontent.com/Hackstur
     $result = [System.Windows.Forms.MessageBox]::Show('This is potentially EXTREMELY dangerous to run. Are you sure?' , "WARNING!" , 4)
     
     if ($result -eq 'Yes') 

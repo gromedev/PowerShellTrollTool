@@ -1,6 +1,6 @@
-﻿function Invoke-DesktopShortcutBomb
+﻿#.AUTHOR https://github.com/Agunderman10
+function Invoke-DesktopShortcutBomb
 {
-#.AUTHOR https://github.com/Agunderman10
     while(1) 
     {
         #assign num to a random number each time around so we can create new shortcuts with different names. We need different names for each

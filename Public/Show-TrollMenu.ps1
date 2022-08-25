@@ -1,6 +1,6 @@
-﻿Function Show-TrollMenu 
+﻿#.DESCRIPTION Opens a text based menu for PwshTrollTools
+Function Show-TrollMenu 
 {
-#.DESCRIPTION Opens a text based menu for PwshTrollTools
 Write-Host "`n***************************************************************" -ForegroundColor green -BackgroundColor black
 Write-Host "                                                               " -ForegroundColor green -BackgroundColor black
 Write-Host "                      PwshTrollTools                           " -ForegroundColor green -BackgroundColor black

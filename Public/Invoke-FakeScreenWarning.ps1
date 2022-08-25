@@ -1,6 +1,6 @@
-﻿function Invoke-FakeScreenWarning
+﻿#.AUTHOR https://raw.githubusercontent.com/Hackstur
+function Invoke-FakeScreenWarning
 {
-#.AUTHOR https://raw.githubusercontent.com/Hackstur
  $xaml = @"
 <Window
  xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'>

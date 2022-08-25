@@ -13,7 +13,7 @@ $button_click0 = {Connect-Remote}
 $Button0 = New-Object System.Windows.Forms.Button
 $Button0.Location = New-Object System.Drawing.Size(350,50)
 $Button0.Size = New-Object System.Drawing.Size(500,35)
-$Button0.Text = "Who's the unlucky guy?"
+$Button0.Text = "Make Remote Shell Connection"
 $Button0.Add_Click($Button_Click0)
 
 #First column

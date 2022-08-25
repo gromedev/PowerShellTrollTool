@@ -1,3 +1,6 @@
+#.DESCRIPTION Displays a cmd window to fool a user into waiting for antivirus definitions to update. Finishes update at 69 and 420 %.
+#.AUTHOR https://raw.githubusercontent.com/kaburkett
+
 function Set-FakeVirusScan
 {
 #.DESCRIPTION Displays a cmd window to fool a user into waiting for antivirus definitions to update. Finishes update at 69 and 420 %.

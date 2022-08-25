@@ -1,6 +1,6 @@
-﻿function Invoke-FakeReboot2
+﻿#.AUTHOR https://raw.githubusercontent.com/Hackstur
+function Invoke-FakeReboot2
 {
-#.AUTHOR https://raw.githubusercontent.com/Hackstur
     $timer = New-Object System.Timers.Timer
     $timer.AutoReset = $true #resets itself
     $timer.Interval = 1000 #ms

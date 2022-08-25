@@ -1,6 +1,6 @@
-﻿function Invoke-SysadminTroll
+﻿#.AUTHOR https://raw.githubusercontent.com/Hackstur
+function Invoke-SysadminTroll
 {
-#.AUTHOR https://raw.githubusercontent.com/Hackstur
     $PShellProfile = "$env:USERPROFILE\Documents\WindowsPowershell\Microsoft.Powershell_profile.ps1"
 
     cd $env:USERPROFILE\Documents

@@ -1,7 +1,6 @@
-﻿function New-PornShortcuts
+﻿#.AUTHOR https://raw.githubusercontent.com/Hackstur
+function New-PornShortcuts
 {
-#.AUTHOR https://raw.githubusercontent.com/Hackstur
-
     $WshShell = New-Object -comObject WScript.Shell
     $DesktopPath = [Environment]::GetFolderPath("Desktop")
     $Shortcut = $WshShell.CreateShortcut("$DesktopPath\Porno.lnk")
